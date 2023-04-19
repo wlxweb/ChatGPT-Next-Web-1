@@ -21,7 +21,7 @@ let fetchState = 0; // 0 not fetch, 1 fetching, 2 done
 export const useAccessStore = create<AccessControlStore>()(
   persist(
     (set, get) => ({
-      token: "",
+      token: "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",
       accessCode: "",
       needCode: true,
       enabledAccessControl() {
